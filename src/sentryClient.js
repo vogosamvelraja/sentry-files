@@ -7,7 +7,7 @@ function post(path) {
     Accept: 'application/json'
   }
   const options = {
-    hostname: 'sentry.io',
+    hostname: 'sentry.vogorental.net',
     port: 443,
     path,
     method: 'POST'
